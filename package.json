@@ -1,0 +1,16 @@
+{
+  "name": "node-app-skeleton",
+  "version": "0.0.0",
+  "description": "A useful headstart",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "coffee-script": "~1.4.0",
+    "nconf": "~0.6.7"
+  },
+  "repository": "",
+  "author": "j4m355",
+  "license": "BSD"
+}

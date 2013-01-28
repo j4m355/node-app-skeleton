@@ -10,6 +10,9 @@
     "coffee-script": "~1.4.0",
     "nconf": "~0.6.7"
   },
+  "bin": {
+    "placeholder": "./bin/placeholder"
+    },
   "repository": "",
   "author": "j4m355",
   "license": "BSD"

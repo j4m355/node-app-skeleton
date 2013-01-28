@@ -1,3 +1,11 @@
-add placeholder bin and package.json for easy app global install
+##Node App Skeleton
 
-add basic instructions to get going...
+```git clone```
+
+```npm install```
+
+```delete .git folder and start new repository```
+
+```replace "placeholder" with intended name of app globally```
+
+fart

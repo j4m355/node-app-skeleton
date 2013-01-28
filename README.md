@@ -1,0 +1,3 @@
+add placeholder bin and package.json for easy app global install
+
+add basic instructions to get going...

@@ -1,5 +1,7 @@
 ##Node App Skeleton
 
+A head start for crap I do manually every time
+
 ```git clone```
 
 ```npm install```

@@ -8,6 +8,6 @@ A head start for crap I do manually every time
 
 ```delete .git folder and start new repository```
 
-```replace "placeholder" with intended name of app globally```
+```replace "placeholder" in "/bin/" and "package.json" with intended name of app globally```
 
 fart

@@ -11,7 +11,7 @@ task :stopService do
 end
 
 task :startService do
-    sh "sudo service <<ServiceName>>start"
+    sh "sudo service <<ServiceName>> start"
 end
 
 task :updateCode do

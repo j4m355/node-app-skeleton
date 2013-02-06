@@ -1,4 +1,5 @@
 task :install => [:npm]
+task :deployment => [:install, :stopService, :updateCode, :startService]
 task :default => [:runProgram]
 
 task :npm do

@@ -1,22 +1,18 @@
 task :install => [:npm]
-task :deployment => [:install, :stopService, :updateCode, :startService]
 task :default => [:runProgram]
+task :build => [:stopService, :npm, :startService]
+
 
 task :npm do
     sh "npm install"
 end
 
 task :stopService do
-    sh "sudo service <<ServiceName>> stop"
+    sh "echo <<pass>> | sudo service <<ServiceName>> stop"
 end
 
 task :startService do
-    sh "sudo service <<ServiceName>> start"
-end
-
-task :updateCode do
-    sh "git checkout master"
-    sh "git pull origin master"
+    sh "echo <<pass>> | sudo service <<ServiceName>> start"
 end
 
 task :runProgram do

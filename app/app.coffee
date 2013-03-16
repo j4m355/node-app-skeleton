@@ -22,5 +22,6 @@ START APPLICATION NOW :
 
 app.use(express.static(__dirname + '/public'));
 
-app.listen(settings.get("port"))
-console.log('Listening on port 3402')
+port = settings.get("port")
+app.listen(port)
+console.log('Listening on port ' + port)

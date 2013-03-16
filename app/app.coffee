@@ -1,5 +1,7 @@
 settings = require(__dirname + '/config/config')(__dirname + "/config/settings.json")
 _ = require('underscore')
+express = require('express')
+app = express()
 
 ###
 Skeleton generated with node-app-skeleton

@@ -9,7 +9,8 @@
   "dependencies": {
     "coffee-script": "~1.4.0",
     "nconf": "~0.6.7",
-    "underscore" : "*"
+    "underscore" : "*",
+    "express" : "3.x"
   },
   "bin": {
     "placeholder": "./bin/placeholder"

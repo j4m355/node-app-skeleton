@@ -1,4 +1,4 @@
-settings = require(__dirname + '/config/config')(__dirname + "/config/settings.json")
+settings = require(__dirname + '/config/config')
 _ = require('underscore')
 express = require('express')
 app = express()

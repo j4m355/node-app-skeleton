@@ -1,4 +1,5 @@
 settings = require(__dirname + '/config/config')(__dirname + "/config/settings.json")
+_ = require('underscore')
 
 ###
 Skeleton generated with node-app-skeleton

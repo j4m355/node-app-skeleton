@@ -1,5 +1,8 @@
 ##Node App Skeleton
 
+For an express app head start - checkout the express branch..
+
+
 A head start for crap I do manually every time
 
 ```git clone```
